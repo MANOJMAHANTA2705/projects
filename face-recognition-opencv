@@ -1,0 +1,111 @@
+# 👤 Face Recognition using OpenCV
+
+## 📌 Overview
+
+This project implements a **Face Recognition System** using **OpenCV** in Python. It detects and recognizes human faces from images or real-time video using computer vision techniques.
+
+---
+
+## 🚀 Features
+
+* 🎥 Real-time face detection using webcam
+* 🧠 Face recognition using trained dataset
+* 📸 Capture and store face images
+* 🔍 Identify known vs unknown faces
+* ⚡ Fast and efficient processing
+
+---
+
+## 🛠️ Technologies Used
+
+* **Programming Language:** Python
+* **Libraries:** OpenCV, NumPy
+* **IDE:** VS Code / PyCharm
+
+---
+
+## 📂 Project Structure
+
+```id="r9fp7y"
+Face_Recognition_opencv2/
+│── dataset/
+│── trainer/
+│── images/
+│── face_recognition.py
+│── train_model.py
+│── README.md
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Create Virtual Environment
+
+```id="p6ubzx"
+python -m venv venv
+```
+
+### 2️⃣ Activate Virtual Environment
+
+* **Windows:**
+
+```id="8d2r48"
+venv\Scripts\activate
+```
+
+* **Mac/Linux:**
+
+```id="l6o8m7"
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Dependencies
+
+```id="d0k6j2"
+pip install opencv-python numpy
+```
+
+---
+
+### 4️⃣ Run the Project
+
+```id="g7z8km"
+python face_recognition.py
+```
+
+---
+
+## 🧠 How It Works
+
+* OpenCV detects faces using Haar Cascade Classifier
+* Extracted features are trained using dataset
+* Model compares input face with trained data
+* Recognizes and displays result
+
+---
+
+
+---
+
+## 👨‍💻 Author
+
+**Manoj Mahanta**
+Assistant Professor | MTech Student | PhD Scholar
+
+---
+
+## 🌟 Future Improvements
+
+* Improve accuracy using Deep Learning
+* Add GUI interface
+* Integrate with attendance system
+* Deploy as web application
+
+---
+
+## 📜 License
+
+This project is open-source and intended for educational purposes.
